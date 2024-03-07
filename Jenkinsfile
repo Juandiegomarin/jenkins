@@ -11,7 +11,7 @@ pipeline{
         stage('copia de archivos'){
             steps{
                 echo 'copia de archivos'
-                sh ‘cp -r build/* /var/www/html/despliegue/'
+                sh 'cp -r build/* /var/www/html/despliegue/'
             }
         }
     }
